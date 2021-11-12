@@ -33,12 +33,12 @@ import BackToTop from './layout/backToTop'
 class Router extends Component {
     render() {
         return (
-            <BrowserRouter basename={'/demo/fianandox/'}>
+            <BrowserRouter basename={''}>
             {/* <BrowserRouter> */}
                 <div class="page-wrapper">
                 
                     <Switch>
-                        <Route path='/' exact component={Index} />
+                        <Route path='/' exact component={Index2} />
                         <Route path='/index-2' component={Index2} />
                         <Route path='/index-3' component={Index3} />
                         <Route path='/index-4' component={Index4} />
