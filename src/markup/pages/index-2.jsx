@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Team from '../components/Team';
 import Header2 from '../layout/header2';
 import HomeSlider2 from '../element/home-slider2';
 import Footer from '../layout/footer';
@@ -64,24 +65,24 @@ class Index2 extends Component {
                                 <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                                     <div class="feature-block-one">
                                         <div class="inner-box">
-                                            <div class="icon"><span class="flaticon-team"></span></div>
-                                            <h5>Management</h5>
+                                            <div class="icon"><span class="fab fa-react"></span></div>
+                                            <h5>React</h5>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                                     <div class="feature-block-one">
                                         <div class="inner-box">
-                                            <div class="icon"><span class="flaticon-money"></span></div>
-                                            <h5>TAX Consume</h5>
+                                            <div class="icon"><span class="fab fa-node"></span></div>
+                                            <h5>Node</h5>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                                     <div class="feature-block-one">
                                         <div class="inner-box">
-                                            <div class="icon"><span class="flaticon-assets"></span></div>
-                                            <h5>Finance & Strategy</h5>
+                                            <div class="icon"><span class="fab fa-battle-net"></span></div>
+                                            <h5>.Net</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -89,23 +90,23 @@ class Index2 extends Component {
                                     <div class="feature-block-one">
                                         <div class="inner-box">
                                             <div class="icon"><span class="flaticon-world"></span></div>
-                                            <h5>Best Advice</h5>
+                                            <h5>UI/UX Design</h5>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                                     <div class="feature-block-one">
                                         <div class="inner-box">
-                                            <div class="icon"><span class="flaticon-money-1"></span></div>
-                                            <h5>Insurance</h5>
+                                            <div class="icon"><span class="fab fa-aws"></span></div>
+                                            <h5>AWS</h5>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                                     <div class="feature-block-one">
                                         <div class="inner-box">
-                                            <div class="icon"><span class="flaticon-notebook"></span></div>
-                                            <h5>Criminal Case</h5>
+                                            <div class="icon"><span class="fab fa-app-store-ios"></span></div>
+                                            <h5>React Native</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -138,7 +139,7 @@ class Index2 extends Component {
                             <div class="col-lg-6">
                                 <div class="image-wrapper wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                                     <div class="image-one">
-                                        <img src={require('../../assets/images/resource/image-10.jpg')} alt="" />
+                                        <img src={require('../../assets/images/team/FaceApp_1637718250873.jpg')} alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -174,7 +175,7 @@ class Index2 extends Component {
                                                 </CountUp>
                                                 <span>%</span>
                                             </div>
-                                            <div class="counter-title">Business Monitoring</div>
+                                            <div class="counter-title">Data Monitoring</div>
                                         </div>
                                     </div>
                                 </div>
@@ -186,7 +187,7 @@ class Index2 extends Component {
                                             <div class="icon"><img src={require('../../assets/images/icons/icon-13.png')} alt="" /></div>
                                             <div class="count-outer count-box">
                                                 <CountUp
-                                                    end={70}
+                                                    end={170}
                                                     redraw={true}
                                                 >
                                                     {({ countUpRef, start }) => (
@@ -200,7 +201,7 @@ class Index2 extends Component {
                                                 </CountUp>
                                                 <span>%</span>
                                             </div>
-                                            <div class="counter-title">Business Monitoring</div>
+                                            <div class="counter-title">Conversions</div>
                                         </div>
                                     </div>
                                 </div>
@@ -212,7 +213,7 @@ class Index2 extends Component {
                                             <div class="icon"><img src={require('../../assets/images/icons/icon-14.png')} alt="" /></div>
                                             <div class="count-outer count-box">
                                                 <CountUp
-                                                    end={56}
+                                                    end={99}
                                                     redraw={true}
                                                 >
                                                     {({ countUpRef, start }) => (
@@ -226,7 +227,7 @@ class Index2 extends Component {
                                                 </CountUp>
                                                 <span>%</span>
                                             </div>
-                                            <div class="counter-title">Business Monitoring</div>
+                                            <div class="counter-title">Customer Satisfaction</div>
                                         </div>
                                     </div>
                                 </div>
@@ -238,7 +239,7 @@ class Index2 extends Component {
                                             <div class="icon"><img src={require('../../assets/images/icons/icon-15.png')} alt="" /></div>
                                             <div class="count-outer count-box">
                                                 <CountUp
-                                                    end={93}
+                                                    end={73}
                                                     redraw={true}
                                                 >
                                                     {({ countUpRef, start }) => (
@@ -252,7 +253,7 @@ class Index2 extends Component {
                                                 </CountUp>
                                                 <span>%</span>
                                             </div>
-                                            <div class="counter-title">Business Monitoring</div>
+                                            <div class="counter-title">Development Cost</div>
                                         </div>
                                     </div>
                                 </div>
@@ -282,7 +283,7 @@ class Index2 extends Component {
                                     </div>
                                 </div>
                                 <div class="progress-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                                    <h5>Business Planing</h5>
+                                    <h5>Online Services</h5>
                                     <div class="bar">
                                     <ProgressBar  className="count-bar" now={64} />
                                     </div>
@@ -331,7 +332,7 @@ class Index2 extends Component {
                                 <div class="services-content">
                                     <div class="sec-title">
                                         <div class="sub-title">Our Services</div>
-                                        <h2>What We Actually <br />Do Here.</h2>
+                                        <h2>What We Really<br /> Do Here.</h2>
                                     </div>
                                     <div class="icon-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                                         <div class="icon"><img src={require('../../assets/images/icons/icon-16.png')} alt="" /></div>
@@ -443,62 +444,7 @@ class Index2 extends Component {
                 <VideoPopup2 />
                 {/* <!-- Team Section --> */}
                 <section class="team-section">
-                    <div class="auto-container">
-                        <div class="sec-title text-center">
-                            <div class="sub-title">Our Team</div>
-                            <h2>Leadership Team</h2>
-                        </div>
-                        <div class="row">
-                            {/* <!-- Team Block One --> */}
-                            <div class="col-lg-4 team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                                <div class="inner-box">
-                                    <div class="image"><img src={require('../../assets/images/team/Jason.jpg')} alt="" /></div>
-                                    <div class="content">
-                                        <div class="designation">Founder</div>
-                                        <h3>Jason C. Maynard</h3>
-                                        <ul class="social-links">
-                                            <li><Link to={'/#'}><span class="fab fa-facebook-f"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-linkedin"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-youtube"></span></Link></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <!-- Team Block One --> */}
-                            <div class="col-lg-4 team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                                <div class="inner-box">
-                                    <div class="image"><img src={require('../../assets/images/resource/team-2.jpg')} alt="" /></div>
-                                    <div class="content">
-                                        <div class="designation">Sales</div>
-                                        <h3>Velavos H. DesuJa</h3>
-                                        <ul class="social-links">
-                                            <li><Link to={'/#'}><span class="fab fa-facebook-f"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-linkedin"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-youtube"></span></Link></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <!-- Team Block One --> */}
-                            <div class="col-lg-4 team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                                <div class="inner-box">
-                                    <div class="image"><img src={require('../../assets/images/team/Tej.jpg')} alt="" /></div>
-                                    <div class="content">
-                                        <div class="designation">CTO</div>
-                                        <h3>Tej Shikawoti</h3>
-                                        <ul class="social-links">
-                                            <li><Link to={'/#'}><span class="fab fa-facebook-f"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-linkedin"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-youtube"></span></Link></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <Team />
                 </section>
 
                 {/* <!-- Testimonial Section --> */}

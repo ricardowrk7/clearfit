@@ -110,8 +110,8 @@ const ServiceFilter1 = props => {
                             <ul class="filter-tabs filter-btns">
                                 <li class="active filter" onClick={() => setState({ ...state, filterKey: "NONE" })}><span>Financial</span></li>
                                 <li class="filter" onClick={() => setState({ ...state, filterKey: "BANKING" })}><span>Banking</span></li>
-                                <li class="filter" onClick={() => setState({ ...state, filterKey: "INSURANCE" })}><span>Insurance </span></li>
-                                <li class="filter" onClick={() => setState({ ...state, filterKey: "FAMILY" })}><span>Family</span></li>
+                                <li class="filter" onClick={() => setState({ ...state, filterKey: "MARKETING" })}><span>Marketing </span></li>
+                                <li class="filter" onClick={() => setState({ ...state, filterKey: "CONSTRUCTION" })}><span>Construction</span></li>
                                 <li class="filter" onClick={() => setState({ ...state, filterKey: "BUSINESS" })}><span>Business</span></li>
                             </ul>
                         </div>

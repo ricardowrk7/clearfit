@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 class Footer extends Component {
+    externalLink(link) {
+        window.location.href = link;
+    }
     render() {
         return (
             <>
@@ -20,10 +23,10 @@ class Footer extends Component {
                                             </div>
                                             <div class="text">Clear Fit software consulting can help your business over the finish line. Any software project or cloud architecture we can handle it with ease.</div>
                                             <ul class="social-links clearfix">
-                                                <li><Link to={'/#'}><span class="fab fa-facebook-f"></span></Link></li>
-                                                <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>
-                                                <li><Link to={'/#'}><span class="fab fa-vimeo-v"></span></Link></li>
-                                                <li><Link to={'/#'}><span class="fab fa-instagram"></span></Link></li>
+                                                <li><Link onClick={() => this.externalLink('https://www.facebook.com/Alien4Hire')} to={''}><span class="fab fa-facebook-f"></span></Link></li>
+                                                <li><Link onClick={() => this.externalLink('https://twitter.com/ClearFitLLC')} to={''}><span class="fab fa-twitter"></span></Link></li>
+                                                <li><Link onClick={() => this.externalLink('https://www.linkedin.com/in/jason-maynard-54b538ba/')} to={''}><span class="fab fa-linkedin"></span></Link></li>
+                                                <li><Link onClick={() => this.externalLink('https://www.instagram.com/alien4hire12/')} to={''}><span class="fab fa-instagram"></span></Link></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -113,7 +116,7 @@ class Footer extends Component {
 
                     <div class="auto-container">
                         <div class="footer-bottom">
-                            <div class="copyright">Copyright By<Link to={'/#'}>Webtend</Link> - 2020</div>
+                            <div class="copyright">Copyright By<Link to={'/#'}> ClearFit</Link> - 2021</div>
                         </div>
                     </div>
                 </footer>

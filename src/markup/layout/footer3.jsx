@@ -116,7 +116,7 @@ class Footer3 extends Component {
                     {/* <!-- Footer Bottom --> */}
                     <div class="auto-container">				
                         <div class="footer-bottom">
-                            <div class="copyright">حقوق الطبع ل  <Link to={'/#'}>Webtend</Link> - 2020</div>
+                            <div class="copyright">حقوق الطبع ل  <Link to={'/#'}> ClearFit</Link> - 2021</div>
                         </div>
                     </div>
                 </footer>

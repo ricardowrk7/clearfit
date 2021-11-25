@@ -9,8 +9,8 @@ const bgimg7 = require('./../../assets/images/background/image-7.jpg');
 const Testimonial1_content = [
     {
         thumb: require('./../../assets/images/resource/thumb-1.jpg'),
-        author: 'Alexer Valvin',
-        designation: 'Founder, Coxer IT',
+        author: 'Scott Mcdonald',
+        designation: 'Project Manager, Fluttr',
         title: 'Design Quality',
         description:
             "Clear Fit Technologies was an excellent Software Development partner. The final mobile app was tested and all its functionalities performed very well. Their work methodology was top-notch and  ",
@@ -18,8 +18,8 @@ const Testimonial1_content = [
     },
     {
         thumb: require('./../../assets/images/resource/thumb-2.jpg'),
-        author: 'Alexer Valvin',
-        designation: 'Founder, Coxer IT',
+        author: 'Adam Harn',
+        designation: 'Founder, Resolute',
         title: 'Amazing Team',
         description:
             'thank you Clear Fit tech. for this amazing experience. I made a mobile application for my small business employees and management are so flexible to work with. I really appreciate your business. ',
@@ -27,8 +27,8 @@ const Testimonial1_content = [
     },
     {
         thumb: require('./../../assets/images/resource/thumb-3.jpg'),
-        author: 'Alexer Valvin',
-        designation: 'Founder, Coxer IT',
+        author: 'Michael Wander',
+        designation: 'Hiring Manager, Clear Digital Media',
         title: 'Motivated',
         description:
             'The Clear Fit consultants we worked with to implement Salesforce as our CRM tool were excellent.  They are professional, knowledgeable and provided excellent guidance during implementation so',

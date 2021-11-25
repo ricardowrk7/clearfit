@@ -96,7 +96,7 @@ class Header2 extends Component {
                                 <div class="nav-outer clearfix">
                                     
                                     <div class="logo-box">
-                                        <div class="logo"><Link to={'/index-2'}><img src={require('../../assets/images/logo-2.png')} alt=""/></Link></div>
+                                        <div class="logo"><Link to={'/index-2'}><img src={require('../../assets/images/logo-3.png')} alt=""/></Link></div>
                                     </div>
                                     
                                     <div class="mobile-nav-toggler"><span class="icon fal fa-bars"></span></div>

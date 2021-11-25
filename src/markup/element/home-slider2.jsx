@@ -6,10 +6,10 @@ import '../../assets/css/slider.css';
 
 const slides = [
     {
-        title: 'Making Your Business Idea',
+        title: "Build Your Business Better",
         btnLearn: "-- Learn More --",
-        finan: "Prosper In This",
-        dox: "Volatile Market",
+        finan: "Design. Develop.",
+        dox: "Test. Launch",
         btnService: "-- Our Services --",
         image: require('./../../assets/images/main-slider/2.jpg'),
     },

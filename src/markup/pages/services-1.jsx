@@ -68,8 +68,8 @@ class Services1 extends Component {
                             {/* <!-- Services Block One --> */}
                             <div class="service-block-one col-lg-4">
                                 <div class="inner-box">
-                                    <div class="icon"><span class="flaticon-team"></span><span class="round-shape"></span></div>
-                                    <h3>Business Management</h3>
+                                    <div class="icon"><span class="flaticon-world"></span><span class="round-shape"></span></div>
+                                    <h3>UI/UX Applications</h3>
                                     <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
                                 </div>
                             </div>
@@ -77,31 +77,31 @@ class Services1 extends Component {
                             <div class="service-block-one col-lg-4">
                                 <div class="inner-box">
                                     <div class="icon"><span class="flaticon-money"></span><span class="round-shape"></span></div>
-                                    <h3>Criminal Case</h3>
+                                    <h3>Eccomerce</h3>
                                     <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
                                 </div>
                             </div>
                             {/* <!-- Services Block One --> */}
                             <div class="service-block-one col-lg-4">
                                 <div class="inner-box">
-                                    <div class="icon"><span class="flaticon-assets"></span><span class="round-shape"></span></div>
-                                    <h3>Property Planning</h3>
+                                    <div class="icon"><span class="fab fa-cloudversify"></span><span class="round-shape"></span></div>
+                                    <h3>Cloud Architecture</h3>
                                     <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
                                 </div>
                             </div>
                             {/* <!-- Services Block One --> */}
                             <div class="service-block-one col-lg-4">
                                 <div class="inner-box">
-                                    <div class="icon"><span class="flaticon-world"></span><span class="round-shape"></span></div>
-                                    <h3>Transport & Export</h3>
+                                    <div class="icon"><span class="fab fa-bitcoin"></span><span class="round-shape"></span></div>
+                                    <h3>Blockchain</h3>
                                     <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
                                 </div>
                             </div>
                             {/* <!-- Services Block One --> */}
                             <div class="service-block-one col-lg-4">
                                 <div class="inner-box">
-                                    <div class="icon"><span class="flaticon-money-1"></span><span class="round-shape"></span></div>
-                                    <h3>Saving Tax</h3>
+                                    <div class="icon"><span class="fa fa-sitemap"></span><span class="round-shape"></span></div>
+                                    <h3>Product Development Strategy</h3>
                                     <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
                                 </div>
                             </div>
@@ -109,7 +109,7 @@ class Services1 extends Component {
                             <div class="service-block-one col-lg-4">
                                 <div class="inner-box">
                                     <div class="icon"><span class="flaticon-notebook"></span><span class="round-shape"></span></div>
-                                    <h3>Growth Business</h3>
+                                    <h3>Responsive Interface</h3>
                                     <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
                                 </div>
                             </div>

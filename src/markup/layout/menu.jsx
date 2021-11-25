@@ -30,12 +30,12 @@ class Menu extends Component {
                             </ul> */}
                         </li>
                         <li><Link to={'/about'}>About Us</Link></li>
-                        <li class="dropdown"><Link to={'/#'}>Services</Link>
+                        <li class="dropdown"><Link to={'/services-1'}>Services</Link>
                             <ul>
                                 <li><Link to={'/services-1'}>UX/UI Applications</Link></li>
-                                <li><Link to={'/services-2'}>eCommerce</Link></li>
-                                <li><Link to={'/services-details'}>Cloud Architecture</Link></li>
-                                <li><Link to={'/services-details'}>Blockchain</Link></li>
+                                <li><Link to={'/services-1'}>eCommerce</Link></li>
+                                <li><Link to={'/services-1'}>Cloud Architecture</Link></li>
+                                <li><Link to={'/services-1'}>Blockchain</Link></li>
                             </ul>
                         </li>
                         <li class="dropdown"><Link to={'/#'}>Portfolio</Link>

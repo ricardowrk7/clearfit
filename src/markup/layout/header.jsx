@@ -48,8 +48,9 @@ class Header extends Component {
         }
     };
 
-
-
+    externalLink(link) {
+        window.location.href = link;
+    }
 
     render() {
         const { scrolled } = this.state;
@@ -63,7 +64,7 @@ class Header extends Component {
 
 
                                     <div class="logo-box">
-                                        <div class="logo"><Link to={'/#'}><img src={require('../../assets/images/logo.png')} alt="" /></Link></div>
+                                        <div class="logo"><Link to={'/#'}><img src={require('../../assets/images/header-logo.png')} alt="" /></Link></div>
                                     </div>
                                 </div>
 
@@ -79,12 +80,12 @@ class Header extends Component {
                                             <div class="icon-box"><i class="flaticon-call-1"></i></div>
                                             <div class="text">Phone Number</div>
 
-                                            <h4><Link to={'/tel:+98787687676"'}>+987 876 876 76</Link></h4>
+                                            <h4><Link to={'/tel:+1614-470-4134"'}>614-470-4134</Link></h4>
                                         </div>
                                         <div class="single-info">
                                             <div class="icon-box"><i class="flaticon-email-4"></i></div>
                                             <div class="text">Email Address</div>
-                                            <h4><Link to={'mailto:info@webmail.com'}>info@webmail.com</Link></h4>
+                                            <h4><Link to={'mailto:info@webmail.com'}>info@clearfitllc.com</Link></h4>
                                         </div>
                                     </div>
                                 </div>
@@ -115,10 +116,10 @@ class Header extends Component {
 
 
                                     <ul class="social-links clearfix">
-                                        <li><Link to={'/#'}><span class="fab fa-facebook-f"></span></Link></li>
-                                        <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>
-                                        <li><Link to={'/#'}><span class="fab fa-linkedin-in"></span></Link></li>
-                                        <li><Link to={'/#'}><span class="fab fa-pinterest-p"></span></Link></li>
+                                        <li onClick={() => this.externalLink('https://www.facebook.com/Alien4Hire')}><Link to={''}><span class="fab fa-facebook-f"></span></Link></li>
+                                        <li onClick={() => this.externalLink('https://twitter.com/ClearFitLLC')}><Link to={''}><span class="fab fa-twitter"></span></Link></li>
+                                        <li onClick={() => this.externalLink('https://www.linkedin.com/in/jason-maynard-54b538ba/')}><Link to={''}><span class="fab fa-linkedin-in"></span></Link></li>
+                                        <li onClick={() => this.externalLink('https://www.instagram.com/alien4hire12/')}><Link to={''}><span class="fab fa-instagram"></span></Link></li>
                                     </ul>
                                 </div>
                             </div>
