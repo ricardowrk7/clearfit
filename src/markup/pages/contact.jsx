@@ -69,8 +69,8 @@ class Contact extends Component {
                             apiKey={"AIzaSyBQ5y0EF8dE6qwc03FcbXHJfXr4vEa7z54"}
                             style={{ height: "800px", width: "100%" }}
                             zoom={12}
-                            center={{ lat: 37.4224764, lng: -122.0842499 }}
-                            markers={{ lat: 37.4224764, lng: -122.0842499 }} //optional
+                            center={{ lat: 40.055660, lng: -83.047060 }}
+                            markers={{ lat: 40.055660, lng: -83.047060 }} //optional
                         />
                     </div>
                 </section>
@@ -86,8 +86,8 @@ class Contact extends Component {
                                             <div class="icon"><span class="flaticon-email-6"></span></div>
                                             <h3>Email Address</h3>
                                             <ul>
-                                                <li><Link to={'/mailto:info@webmail.com'}>info@webmail.com</Link></li>
-                                                <li><Link to={'/mailto:info@webmail.com'}>jobs@exampleco.com</Link></li>
+                                                <li><Link to={'/mailto:info@webmail.com'}>info@clearfitllc.com</Link></li>
+                                                {/* <li><Link to={'/mailto:info@webmail.com'}>jason.maynard@clearfitllc.com</Link></li> */}
                                             </ul>
                                         </div>
                                     </div>
@@ -96,8 +96,7 @@ class Contact extends Component {
                                             <div class="icon"><span class="flaticon-call-1"></span></div>
                                             <h3>Phone Number</h3>
                                             <ul>
-                                                <li><Link to={'/tel:+8976765654654'}>+897 676 5654 654</Link></li>
-                                                <li><Link to={'/tel:+908(097)56476576'}>+908(097) 564 765 76</Link></li>
+                                                <li><Link to={'/tel:+8976765654654'}>+1 614-470-4134</Link></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -106,7 +105,7 @@ class Contact extends Component {
                                             <div class="icon"><span class="flaticon-location"></span></div>
                                             <h3>Office Address</h3>
                                             <ul>
-                                                <li>12/A, Romania City Town Hall <br/>New Joursey, UK</li>
+                                                <li>1060 Weybridge Rd <br/>Columbus, OH</li>
                                             </ul>
                                         </div>
                                     </div>

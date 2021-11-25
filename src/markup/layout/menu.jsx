@@ -38,37 +38,37 @@ class Menu extends Component {
                                 <li><Link to={'/services-1'}>Blockchain</Link></li>
                             </ul>
                         </li>
-                        <li class="dropdown"><Link to={'/#'}>Portfolio</Link>
+                        <li class="dropdown"><Link to={'/portfolio-1'}>Portfolio</Link>
                             <ul>
                                 <li><Link to={'/portfolio-1'}>Web Development</Link></li>
-                                <li><Link to={'/portfolio-2'}>Mobile</Link></li>
-                                <li><Link to={'/portfolio-details'}>Portfolio Details</Link></li>
+                                <li><Link to={'/portfolio-1'}>Mobile</Link></li>
+                                <li><Link to={'/portfolio-1'}>Portfolio Details</Link></li>
                             </ul>
                         </li>
-                        <li class="dropdown"><Link to={'/blog-standard'}>Blog</Link>
+                        <li><Link to={'/blog-standard'}>Blog</Link>
                             {/* <ul>
                                 <li><Link to={'/blog-grid'}>Blog Grid</Link></li>
                                 <li><Link to={'/blog-standard'}>Blog Standard</Link></li>
                                 <li><Link to={'/blog-details'}>Blog Details</Link></li>
                             </ul> */}
                         </li>
-                        <li class="dropdown"><Link to={'/#'}>Pages</Link>
-                            <ul>
-                                <li><Link to={'/careers'}>Careers</Link></li>
+                        <li><Link to={'/faq'}>Faq's</Link>
+                            {/* <ul> */}
+                                {/* <li><Link to={'/careers'}>Careers</Link></li>
                                 <li><Link to={'/team'}>Team</Link></li>
-                                <li><Link to={'/team-details'}>Team Details</Link></li>
+                                <li><Link to={'/team-details'}>Team Details</Link></li> */}
 
-                                <li class="dropdown"><Link to={'/#'}>Shop</Link>
+                                {/* <li class="dropdown"><Link to={'/#'}>Shop</Link>
                                     <ul>
                                         <li><Link to={'/shop'}>Products</Link></li>
                                         <li><Link to={'/product-details'}>Product Details</Link></li>
                                         <li><Link to={'/shopping-cart'}>Shopping Cart</Link></li>
                                         <li><Link to={'/checkout'}>Checkout</Link></li>
                                     </ul>
-                                </li>
-                                <li><Link to={'/faq'}>Faq's</Link></li>
+                                </li> */}
+                                {/* <li><Link to={'/faq'}>Faq's</Link></li>
                                 <li><Link to={'/404'}>404</Link></li>
-                            </ul>
+                            </ul> */}
                         </li>
 
                         <li><Link to={'/contact'}>Contact</Link></li>

@@ -37,96 +37,60 @@ class FaqAccordion extends Component {
                                     <AccordionItem>
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
-                                                How to analyze marketing strategies?
+                                                When was ClearFit founded?
                                             </AccordionItemButton>
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>
                                             <p>
-                                                Nostrud exercitation ullamco laboris nisi ut aliquip aute irure dolor indy reprehenderit in voluptate velit esse cillum dole Veniam quis nul pariatur excepteur sint nulla ipsum occaecat.
+                                            In 2018, I was working as a freelance developer and business was starting to take off. I reached out to a few friends who were developers and next thing I knew we had a company forming.
                                             </p>
                                         </AccordionItemPanel>
                                     </AccordionItem>
                                     <AccordionItem>
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
-                                                What are latest updates and how to get it?
+                                                What is ClearFits vision and mission?
                                             </AccordionItemButton>
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>
                                             <p>
-                                                Nostrud exercitation ullamco laboris nisi ut aliquip aute irure dolor indy reprehenderit in voluptate velit esse cillum dole Veniam quis nul pariatur excepteur sint nulla ipsum occaecat.
+                                                Software that works is the highest priority, building a custom software for your company can be a big investment and to us, we feel bringing your idea to reality should be as seamless as possible.
                                             </p>
                                         </AccordionItemPanel>
                                     </AccordionItem>
                                     <AccordionItem>
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
-                                                How can I customize projects to add members?
+                                                What does Clear Fit do?
                                             </AccordionItemButton>
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>
                                             <p>
-                                                Nostrud exercitation ullamco laboris nisi ut aliquip aute irure dolor indy reprehenderit in voluptate velit esse cillum dole Veniam quis nul pariatur excepteur sint nulla ipsum occaecat.
+                                                We are a software consulting firm! We work with clients that are looking to build a custom software for their company but may not have an in house development team. We provide the experience and expertise to move forward with the project.
                                             </p>
                                         </AccordionItemPanel>
                                     </AccordionItem>
                                     <AccordionItem>
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
-                                                Why you respond so much late?
+                                                How do I get started?
                                             </AccordionItemButton>
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>
                                             <p>
-                                                Nostrud exercitation ullamco laboris nisi ut aliquip aute irure dolor indy reprehenderit in voluptate velit esse cillum dole Veniam quis nul pariatur excepteur sint nulla ipsum occaecat.
+                                                To get started and get our developers working on your project as soon as possible you can call us at +1 614-470-4134 or click contact in the menu and fill out the contact form!
                                             </p>
                                         </AccordionItemPanel>
                                     </AccordionItem>
                                     <AccordionItem>
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
-                                                How to analyze marketing strategies?
+                                                How is billing done with your clients?
                                             </AccordionItemButton>
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>
                                             <p>
-                                                Nostrud exercitation ullamco laboris nisi ut aliquip aute irure dolor indy reprehenderit in voluptate velit esse cillum dole Veniam quis nul pariatur excepteur sint nulla ipsum occaecat.
-                                            </p>
-                                        </AccordionItemPanel>
-                                    </AccordionItem>
-                                    <AccordionItem>
-                                        <AccordionItemHeading>
-                                            <AccordionItemButton>
-                                                What are latest updates and how to get it?
-                                            </AccordionItemButton>
-                                        </AccordionItemHeading>
-                                        <AccordionItemPanel>
-                                            <p>
-                                                Nostrud exercitation ullamco laboris nisi ut aliquip aute irure dolor indy reprehenderit in voluptate velit esse cillum dole Veniam quis nul pariatur excepteur sint nulla ipsum occaecat.
-                                            </p>
-                                        </AccordionItemPanel>
-                                    </AccordionItem>
-                                    <AccordionItem>
-                                        <AccordionItemHeading>
-                                            <AccordionItemButton>
-                                                How can I customize projects to add members?
-                                            </AccordionItemButton>
-                                        </AccordionItemHeading>
-                                        <AccordionItemPanel>
-                                            <p>
-                                                Nostrud exercitation ullamco laboris nisi ut aliquip aute irure dolor indy reprehenderit in voluptate velit esse cillum dole Veniam quis nul pariatur excepteur sint nulla ipsum occaecat.
-                                            </p>
-                                        </AccordionItemPanel>
-                                    </AccordionItem>
-                                    <AccordionItem>
-                                        <AccordionItemHeading>
-                                            <AccordionItemButton>
-                                                Why you respond so much late?
-                                            </AccordionItemButton>
-                                        </AccordionItemHeading>
-                                        <AccordionItemPanel>
-                                            <p>
-                                                Nostrud exercitation ullamco laboris nisi ut aliquip aute irure dolor indy reprehenderit in voluptate velit esse cillum dole Veniam quis nul pariatur excepteur sint nulla ipsum occaecat.
+                                                We work with clients of many different sized budgets. Predicting the total cost of software development can be hard so we bill our clients by the hour. We work to plan around your monthly budget and get as many developers working to get your project done as fast as possible.
                                             </p>
                                         </AccordionItemPanel>
                                     </AccordionItem>

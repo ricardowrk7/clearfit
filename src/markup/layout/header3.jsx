@@ -100,7 +100,7 @@ class Header3 extends Component {
                                             <h4><Link to="'/tel:+98787687676">+987 876 876 76</Link></h4>
                                         </div>
                                         {/* <!-- Link Btn--> */}
-                                        <div class="link-btn"><Link to={'/#'} class="theme-btn btn-style-one"><span class="btn-title">Get A Quote</span></Link></div>
+                                        <div class="link-btn"><Link to={'/contact'} class="theme-btn btn-style-one"><span class="btn-title">Get A Quote</span></Link></div>
                                     </div>
 
                                 </div>

@@ -105,7 +105,7 @@ class Header2 extends Component {
                                     <nav class="main-menu navbar-expand-md navbar-light">
                                     <Menu />
                                     </nav>
-                                    <div class="link-btn"><Link to={'/#'} class="theme-btn btn-style-one"><span class="btn-title">Get A Quote</span></Link></div>
+                                    <div class="link-btn"><Link to={'/contact'} class="theme-btn btn-style-one"><span class="btn-title">Get A Quote</span></Link></div>
                                 </div>
                             </div>
                         </div>

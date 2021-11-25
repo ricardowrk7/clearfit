@@ -256,7 +256,7 @@ class Index3 extends Component {
                                     <h2>$7,080</h2>
                                 </div>
                                 <div class="column">
-                                    <Link to={'/#'} class="theme-btn btn-style-two"><span class="btn-title">Get A Quote</span></Link>
+                                    <Link to={'/contact'} class="theme-btn btn-style-two"><span class="btn-title">Get A Quote</span></Link>
                                 </div>
                             </div>
                         </div>

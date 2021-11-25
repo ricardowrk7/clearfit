@@ -53,7 +53,7 @@ class Header5 extends Component {
                                 </div>
                 
                                 <div class="top-right">
-                                    <Link to={'/#'} class="theme-btn btn-style-two"><span class="btn-title">Get A Quote</span></Link>
+                                    <Link to={'/contact'} class="theme-btn btn-style-two"><span class="btn-title">Get A Quote</span></Link>
                                 </div>
                             </div>
                         </div>
