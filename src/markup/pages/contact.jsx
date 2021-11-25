@@ -66,7 +66,7 @@ class Contact extends Component {
                 <section class="map-section">
                     <div class="map-column">
                         <GoogleMaps
-                            apiKey={"AIzaSyBQ5y0EF8dE6qwc03FcbXHJfXr4vEa7z54"}
+                            apiKey={process.env.GOOGLE_API_KEY}
                             style={{ height: "800px", width: "100%" }}
                             zoom={12}
                             center={{ lat: 40.055660, lng: -83.047060 }}
