@@ -56,8 +56,8 @@ class Header2 extends Component {
                             <div class="inner">
                                 <div class="top-left">
                                     <ul class="contact-info">
-                                        <li><Link to={'/mailto:info@webmail.com'}><i class="far fa-envelope"></i>info@clearfitllc.com</Link></li>
-                                        <li><Link to={'/tel:+98787687676'}><i class="far fa-phone"></i>614-470-4134</Link></li>
+                                        <li><Link to={'mailto:info@webmail.com'}><i class="far fa-envelope"></i>info@clearfitllc.com</Link></li>
+                                        <li><Link to={'/tel:+16144704134'}><i class="far fa-phone"></i>614-470-4134</Link></li>
                                     </ul>
                                 </div>
 

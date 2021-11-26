@@ -86,7 +86,7 @@ class Contact extends Component {
                                             <div class="icon"><span class="flaticon-email-6"></span></div>
                                             <h3>Email Address</h3>
                                             <ul>
-                                                <li><Link to={'/mailto:info@webmail.com'}>info@clearfitllc.com</Link></li>
+                                                <li><Link to={'mailto:info@webmail.com'}>info@clearfitllc.com</Link></li>
                                                 {/* <li><Link to={'/mailto:info@webmail.com'}>jason.maynard@clearfitllc.com</Link></li> */}
                                             </ul>
                                         </div>
@@ -96,7 +96,7 @@ class Contact extends Component {
                                             <div class="icon"><span class="flaticon-call-1"></span></div>
                                             <h3>Phone Number</h3>
                                             <ul>
-                                                <li><Link to={'/tel:+8976765654654'}>+1 614-470-4134</Link></li>
+                                                <li><Link to={'/tel:+16144704134'}>+1 614-470-4134</Link></li>
                                             </ul>
                                         </div>
                                     </div>
