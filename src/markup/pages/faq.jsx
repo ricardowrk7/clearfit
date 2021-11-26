@@ -50,10 +50,10 @@ class Faq extends Component {
                     <div class="bottom-rotten-curve alternate"></div>
 
                     <div class="auto-container">
-                        <h1>FAQ's</h1>
+                        <h1>Faq's</h1>
                         <ul class="bread-crumb clearfix">
                             <li><Link to={'/#'}>Home</Link></li>
-                            <li class="active">FAQ's</li>
+                            <li class="active">Faq's</li>
                         </ul>
                     </div>
 
