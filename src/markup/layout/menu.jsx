@@ -11,7 +11,7 @@ class Menu extends Component {
             <>
                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                     <ul class="navigation clearfix">
-                        <li class="dropdown"><Link to={'/index-2'}>Home</Link>
+                        <li><Link to={'/index-2'}>Home</Link>
                             {/* <ul>
                                 <li><Link to={'/#'}>Home page 01</Link></li>
                                 <li><Link to={'/index-2'}>Home page 02</Link></li>
