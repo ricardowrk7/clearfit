@@ -114,7 +114,7 @@ class Header4 extends Component {
                                                     <li><Link to={'/checkout'}>Checkout</Link></li>
                                                 </ul>
                                             </li>
-                                            <li><Link to={'/faq'}>Faq's</Link></li>
+                                            <li><Link to={'/faq'}>FAQ's</Link></li>
                                             <li><Link to={'/404'}>404</Link></li>
                                         </ul>
                                     </li>

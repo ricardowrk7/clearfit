@@ -52,7 +52,7 @@ class Menu extends Component {
                                 <li><Link to={'/blog-details'}>Blog Details</Link></li>
                             </ul> */}
                         </li>
-                        <li><Link to={'/faq'}>Faq's</Link>
+                        <li><Link to={'/faq'}>FAQ's</Link>
                             {/* <ul> */}
                                 {/* <li><Link to={'/careers'}>Careers</Link></li>
                                 <li><Link to={'/team'}>Team</Link></li>

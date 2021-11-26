@@ -77,7 +77,7 @@ class Services1 extends Component {
                             <div class="service-block-one col-lg-4">
                                 <div class="inner-box">
                                     <div class="icon"><span class="flaticon-money"></span><span class="round-shape"></span></div>
-                                    <h3>Eccomerce</h3>
+                                    <h3>Ecommerce</h3>
                                     <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
                                 </div>
                             </div>
