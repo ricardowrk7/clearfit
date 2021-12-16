@@ -25,7 +25,7 @@ class HomeSlider2 extends Component {
                 <Slider className="slider-wrapper" autoplay>
                     {slides.map((slide, index) =>
                         <div key={index} className="slider-content" style={{ background: `url('${slide.image}') no-repeat center center` }}>
-                            <div className="inner text-center inner-2">
+                            <div className="inner text-center inner-2 header-text-12">
                                 <h1>{slide.title}</h1>
                                 <h2>{slide.finan} <span>{slide.dox} </span></h2>
                                 <div class="btn-box">
