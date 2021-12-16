@@ -231,7 +231,7 @@
   font-weight: 700;
   display: block;
 }
-@media (max-width: 400px) {
+@media (max-width: 680px) {
   .slider-content .inner.inner-2 h2 {
     font-size: 81px;
     text-align: left;
