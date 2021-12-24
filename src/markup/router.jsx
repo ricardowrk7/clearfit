@@ -9,6 +9,8 @@ import RtlHome from './pages/rtl-home';
 import Error404 from './pages/404';
 import About from './pages/about'
 import BlogDestails from './pages/blog-details'
+import BlogDestailsOne from './pages/blog-details-1'
+import BlogDestailsTwo from './pages/blog-details-2'
 import BlogGrid from './pages/blog-grid'
 import BlogStandard from './pages/blog-standard'
 import Careers from './pages/careers'
@@ -47,6 +49,8 @@ class Router extends Component {
                         <Route path='/404' component={Error404} />
                         <Route path='/about' component={About} />
                         <Route path='/blog-details' component={BlogDestails} />
+                        <Route path='/blog-details-1' component={BlogDestailsOne} />
+                        <Route path='/blog-details-2' component={BlogDestailsTwo} />
                         <Route path='/blog-grid' component={BlogGrid} />
                         <Route path='/blog-standard' component={BlogStandard} />
                         <Route path='/careers' component={Careers} />

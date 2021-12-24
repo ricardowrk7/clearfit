@@ -468,8 +468,8 @@ class Index2 extends Component {
                                             <li><Link to={'/#'}><i class="far fa-calendar-alt"></i>24th March 2020</Link></li>
                                             <li><Link to={'/#'}><i class="far fa-user"></i>By Admin</Link></li>
                                         </ul>
-                                        <h3><Link to={'/blog-details'}>UX is best solution for your <br />business & make noise.</Link></h3>
-                                        <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore</div>
+                                        <h3><Link to={'/blog-details'}>Product vs Project Mindset <br />for Software Development. </Link></h3>
+                                        <div class="text">Software development and project management have now been here for a while; long enough to have dedicated roles of a project manager whose only job is to keep things moving between developers.</div>
                                     </div>
                                 </div>
                             </div>
@@ -483,8 +483,8 @@ class Index2 extends Component {
                                             <li><Link to={'/#'}><i class="far fa-calendar-alt"></i>26th March 2020</Link></li>
                                             <li><Link to={'/#'}><i class="far fa-user"></i>By Admin</Link></li>
                                         </ul>
-                                        <h3><Link to={'/blog-details'}>Business consultant is involved in the planning.</Link></h3>
-                                        <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore</div>
+                                        <h3><Link to={'/blog-details'}>What is Agile and why is it Important?</Link></h3>
+                                        <div class="text">The definition of Agile is muddled over the years. Today, it mostly refers to developing software faster following some best practices and project management templates like Scrum {'&'} Kanban; also it’s many derivatives.</div>
                                     </div>
                                 </div>
                             </div>
@@ -498,8 +498,8 @@ class Index2 extends Component {
                                             <li><Link to={'/#'}><i class="far fa-calendar-alt"></i>28th March 2020</Link></li>
                                             <li><Link to={'/#'}><i class="far fa-user"></i>By Admin</Link></li>
                                         </ul>
-                                        <h3><Link to={'/blog-details'}>Business consultant is a professional who analyzes.</Link></h3>
-                                        <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore</div>
+                                        <h3><Link to={'/blog-details'}>Five golden rules of software development.</Link></h3>
+                                        <div class="text">As software developers, we love to see the world in terms of complicated problems we have learned in our college courses. There might be some algorithm you learned in your college degree that resonates with the requirements placed</div>
                                     </div>
                                 </div>
                             </div>

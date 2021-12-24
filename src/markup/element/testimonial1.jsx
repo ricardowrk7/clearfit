@@ -43,24 +43,24 @@ const Testimonial1_content = [
             'Our firm has been working with Clear Fit for 10+ years and they have been a great partner!!!  Their response time and availability are great!  Our profession requires a lot of after-hours work ',
 
     },
-    {
-        thumb: require('./../../assets/images/resource/thumb-5.jpg'),
-        author: 'Alexer Valvin',
-        designation: 'Founder, Coxer IT',
-        title: 'Design Quality',
-        description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ',
+    // {
+    //     thumb: require('./../../assets/images/resource/thumb-5.jpg'),
+    //     author: 'Alexer Valvin',
+    //     designation: 'Founder, Coxer IT',
+    //     title: 'Design Quality',
+    //     description:
+    //         'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ',
 
-    },
-    {
-        thumb: require('./../../assets/images/resource/thumb-6.jpg'),
-        author: 'Alexer Valvin',
-        designation: 'Founder, Coxer IT',
-        title: 'Design Quality',
-        description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ',
+    // },
+    // {
+    //     thumb: require('./../../assets/images/resource/thumb-6.jpg'),
+    //     author: 'Alexer Valvin',
+    //     designation: 'Founder, Coxer IT',
+    //     title: 'Design Quality',
+    //     description:
+    //         'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ',
 
-    },
+    // },
 ]
 
 
