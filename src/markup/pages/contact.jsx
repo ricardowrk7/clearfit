@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Header from '../layout/header'
 import Footer from '../layout/footer'
 import GoogleMaps from "simple-react-google-maps";
-import { REACT_APP_GOOGLE_API_KEY } from './config'
+// import { REACT_APP_GOOGLE_API_KEY } from './config'
 
 const aboutbg = require('./../../assets/images/background/image-11.jpg');
 
@@ -13,6 +13,7 @@ const aboutbg = require('./../../assets/images/background/image-11.jpg');
 class Contact extends Component {
 
     render() {
+        console.log(process.env)
         return (
             <>
                 <Header />
@@ -66,7 +67,7 @@ class Contact extends Component {
                 <section class="map-section">
                     <div class="map-column">
                         <GoogleMaps
-                            apiKey={process.env.REACT_APP_GOOGLE_API_KEY || REACT_APP_GOOGLE_API_KEY}
+                            apiKey={process.env.REACT_APP_GOOGLE_API_KEY}
                             style={{ height: "800px", width: "100%" }}
                             zoom={12}
                             center={{ lat: 40.055660, lng: -83.047060 }}
