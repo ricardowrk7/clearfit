@@ -20,22 +20,22 @@ class Contact extends Component {
                 
 
                 {/* <!--Search Popup--> */}
-                <div id="search-popup" class="search-popup">
-                    <div class="close-search theme-btn"><span class="flaticon-cancel"></span></div>
-                    <div class="popup-inner">
-                        <div class="overlay-layer"></div>
-                        <div class="search-form">
+                <div id="search-popup" className="search-popup">
+                    <div className="close-search theme-btn"><span className="flaticon-cancel"></span></div>
+                    <div className="popup-inner">
+                        <div className="overlay-layer"></div>
+                        <div className="search-form">
                             <form method="post" action="http://azim.commonsupport.com/Finandox/index.html">
-                                <div class="form-group">
+                                <div className="form-group">
                                     <fieldset>
-                                        <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required />
-                                        <input type="submit" value="Search Now!" class="theme-btn"/>
+                                        <input type="search" className="form-control" name="search-input" value="" placeholder="Search Here" required />
+                                        <input type="submit" value="Search Now!" className="theme-btn"/>
                                     </fieldset>
                                 </div>
                             </form>
                             <br/>
                             <h3>Recent Search Keywords</h3>
-                            <ul class="recent-searches">
+                            <ul className="recent-searches">
                                 <li><Link to={'/#'}>Finance</Link></li>
                                 <li><Link to={'/#'}>Idea</Link></li>
                                 <li><Link to={'/#'}>Service</Link></li>
@@ -48,15 +48,15 @@ class Contact extends Component {
                 </div>
                 
                 {/* <!-- Page Banner Section --> */}
-                <section class="page-banner">
+                <section className="page-banner">
                     <div className="page-banner-bg" style={{ backgroundImage: "url(" + aboutbg + ")" }}></div>
-                    <div class="bottom-rotten-curve alternate"></div>
+                    <div className="bottom-rotten-curve alternate"></div>
 
-                    <div class="auto-container">
+                    <div className="auto-container">
                         <h1>Contact Us</h1>
-                        <ul class="bread-crumb clearfix">
+                        <ul className="bread-crumb clearfix">
                             <li><Link to={'/#'}>Home</Link></li>
-                            <li class="active">Contact</li>
+                            <li className="active">Contact</li>
                         </ul>
                     </div>
 
@@ -64,8 +64,8 @@ class Contact extends Component {
 
                 {/* <!-- Map Section --> */}
                 {/* <!-- Map Section --> */}
-                <section class="map-section">
-                    <div class="map-column">
+                <section className="map-section">
+                    <div className="map-column">
                         <GoogleMaps
                             apiKey={process.env.REACT_APP_GOOGLE_API_KEY}
                             style={{ height: "800px", width: "100%" }}
@@ -77,14 +77,14 @@ class Contact extends Component {
                 </section>
 
                 {/* <!-- Contact Section Two --> */}
-                <section class="contact-section-two">
-                    <div class="auto-container">
-                        <div class="contact-info-area">
-                            <div class="contact-info">
-                                <div class="row">
-                                    <div class="info-column col-lg-4">
-                                        <div class="icon-box">
-                                            <div class="icon"><span class="flaticon-email-6"></span></div>
+                <section className="contact-section-two">
+                    <div className="auto-container">
+                        <div className="contact-info-area">
+                            <div className="contact-info">
+                                <div className="row">
+                                    <div className="info-column col-lg-4">
+                                        <div className="icon-box">
+                                            <div className="icon"><span className="flaticon-email-6"></span></div>
                                             <h3>Email Address</h3>
                                             <ul>
                                                 <li><Link to={'mailto:info@webmail.com'}>info@clearfitllc.com</Link></li>
@@ -92,18 +92,18 @@ class Contact extends Component {
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="info-column col-lg-4">
-                                        <div class="icon-box">
-                                            <div class="icon"><span class="flaticon-call-1"></span></div>
+                                    <div className="info-column col-lg-4">
+                                        <div className="icon-box">
+                                            <div className="icon"><span className="flaticon-call-1"></span></div>
                                             <h3>Phone Number</h3>
                                             <ul>
                                                 <li><Link to={'/tel:+16144704134'}>+1 614-470-4134</Link></li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="info-column col-lg-4">
-                                        <div class="icon-box">
-                                            <div class="icon"><span class="flaticon-location"></span></div>
+                                    <div className="info-column col-lg-4">
+                                        <div className="icon-box">
+                                            <div className="icon"><span className="flaticon-location"></span></div>
                                             <h3>Office Address</h3>
                                             <ul>
                                                 <li>1060 Weybridge Rd <br/>Columbus, OH</li>
@@ -113,35 +113,35 @@ class Contact extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div class="contact-form-area">
-                            <div class="sec-title text-center">
-                                <div class="sub-title">Write Here</div>
+                        <div className="contact-form-area">
+                            <div className="sec-title text-center">
+                                <div className="sub-title">Write Here</div>
                                 <h2>Get In Touch</h2>
                             </div>
                             {/* <!-- Contact Form--> */}
-                            <div class="contact-form">
+                            <div className="contact-form">
                                 <form method="post" action="http://azim.commonsupport.com/Finandox/sendemail.php" id="contact-form">
-                                    <div class="row clearfix">                                    
-                                        <div class="col-md-6 form-group">
+                                    <div className="row clearfix">                                    
+                                        <div className="col-md-6 form-group">
                                             <label for="name">Enter your name</label>
                                             <input type="text" name="username" id="name" placeholder="Enter name here......" required=""/>
-                                            <i class="fas fa-user"></i>
+                                            <i className="fas fa-user"></i>
                                         </div>
                                         
-                                        <div class="col-md-6 form-group">
+                                        <div className="col-md-6 form-group">
                                             <label for="email">Enter your email</label>
                                             <input type="email" name="email" id="email" placeholder="Enter email here......" required=""/>
-                                            <i class="fas fa-envelope"></i>
+                                            <i className="fas fa-envelope"></i>
                                         </div>
                 
-                                        <div class="col-md-12 form-group">
+                                        <div className="col-md-12 form-group">
                                             <label for="message">Enter your message</label>
                                             <textarea name="message" id="message" placeholder="Enter message here......"></textarea>
-                                            <i class="fas fa-edit"></i>
+                                            <i className="fas fa-edit"></i>
                                         </div>
                 
-                                        <div class="col-md-12 form-group">
-                                            <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="btn-title">Get In Touch</span></button>
+                                        <div className="col-md-12 form-group">
+                                            <button className="theme-btn btn-style-one" type="submit" name="submit-form"><span className="btn-title">Get In Touch</span></button>
                                         </div>
                                     </div>
                                 </form>
