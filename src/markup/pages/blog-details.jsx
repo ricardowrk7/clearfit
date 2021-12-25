@@ -235,7 +235,7 @@ class BlogDestails extends Component {
                                         <div class="widget-content">
                                             <div class="image"><img src={require('../../assets/images/resource/author-2.jpg')} alt=""/></div>
                                             <h4>Rosalina D. Willaimson</h4>
-                                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+                                            <div class="text">Never really sure how to describe myself in just a few sentences. I went into web design from a business backgroung and I can bring a unique perspective your project.</div>
                                             <ul class="social-links">
                                                 <li><Link to={'/#'}><span class="fab fa-facebook-f"></span></Link></li>
                                                 <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>

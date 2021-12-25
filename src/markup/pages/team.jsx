@@ -214,7 +214,7 @@ class Team extends Component {
                         <div class="auto-container">
                             <div class="sec-title text-center">
                                 <div class="sub-title">Portfolio</div>
-                                <h2>Our Works</h2>
+                                <h2>Our Work</h2>
                             </div>
                             {/* <!--Tabs Header--> */}
                             <div class="tabs-header">

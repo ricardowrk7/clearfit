@@ -100,7 +100,7 @@ const PortfolioFilter2 = props => {
                         <div class="row m-0 justify-content-md-between align-items-center">
                             <div class="sec-title">
                                 <div class="sub-title">Portfolio</div>
-                                <h2>Our Works</h2>
+                                <h2>Our Work</h2>
                             </div>
                             {/* <!--Filter--> */}
                             <div class="filters text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">

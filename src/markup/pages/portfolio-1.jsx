@@ -50,7 +50,7 @@ class Portfolio1 extends Component {
                     <div class="bottom-rotten-curve alternate"></div>
 
                     <div class="auto-container">
-                        <h1>Our Works</h1>
+                        <h1>Our Work</h1>
                         <ul class="bread-crumb clearfix">
                             <li><Link to={'/#'}>Home</Link></li>
                             <li class="active">Portfolio</li>

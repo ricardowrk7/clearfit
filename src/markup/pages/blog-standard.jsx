@@ -78,12 +78,12 @@ class BlogStandard extends Component {
                                                 <li><Link to={'/#'}><i class="far fa-comments"></i>35 Comments</Link></li>
                                                 <li><Link to={'/#'}><i class="far fa-calendar-alt"></i>26th March 2020</Link></li>
                                             </ul>
-                                            <h2><Link to={'/blog-details'}>Lorem ipsum dolor sit amet, consecte <br/>cing elit, sed do eiusmod tempor.</Link></h2>
-                                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</div>
+                                            <h2><Link to={'/blog-details'}>Product vs Project Mindset for Software Development.</Link></h2>
+                                            <div class="text">Software development and project management have now been here for a while; long enough to have dedicated roles of a project manager whose only job is to keep things moving between developers.</div>
                                             <div class="wrapper">
                                                 <div class="author-box">
-                                                    <div class="thumb"><img src={require('../../assets/images/resource/thumb-4.jpg')} alt=""/></div>
-                                                    <h5>by Hetmayar</h5>
+                                                    <div class="thumb"><img src={require('../../assets/images/resource/thumb-5.jpg')} alt=""/></div>
+                                                    <h5>by Steve Anderson</h5>
                                                 </div>
                                                 <div class="read-more"><Link to={'/blog-details'}><i class="fal fa-arrow-right"></i>Read More</Link></div>
                                             </div>
@@ -101,14 +101,14 @@ class BlogStandard extends Component {
                                                 <li><Link to={'/#'}><i class="far fa-comments"></i>35 Comments</Link></li>
                                                 <li><Link to={'/#'}><i class="far fa-calendar-alt"></i>26th March 2020</Link></li>
                                             </ul>
-                                            <h2><Link to={'/blog-details'}>Adipisicing elit, sed do eiusmod tempor <br/> incididunt ut labore et dolore.</Link></h2>
-                                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</div>
+                                            <h2><Link to={'/blog-details-1'}>What is Agile and why is it Important?</Link></h2>
+                                            <div class="text">The definition of Agile is muddled over the years. Today, it mostly refers to developing software faster following some best practices and project management templates like Scrum {'&'} Kanban; also it’s many derivatives.</div>
                                             <div class="wrapper">
                                                 <div class="author-box">
                                                     <div class="thumb"><img src={require('../../assets/images/resource/thumb-5.jpg')} alt=""/></div>
-                                                    <h5>by Hetmayar</h5>
+                                                    <h5>by Steve Anderson</h5>
                                                 </div>
-                                                <div class="read-more"><Link to={'/blog-details'}><i class="fal fa-arrow-right"></i>Read More</Link></div>
+                                                <div class="read-more"><Link to={'/blog-details-1'}><i class="fal fa-arrow-right"></i>Read More</Link></div>
                                             </div>
                                         </div>
                                     </div>
@@ -124,14 +124,14 @@ class BlogStandard extends Component {
                                                 <li><Link to={'/#'}><i class="far fa-comments"></i>35 Comments</Link></li>
                                                 <li><Link to={'/#'}><i class="far fa-calendar-alt"></i>26th March 2020</Link></li>
                                             </ul>
-                                            <h2><Link to={'/blog-details'}>Magna aliqua. Ut enim ad minim venia <br/>m, quis nostrud exercitation ullamco</Link></h2>
-                                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</div>
+                                            <h2><Link to={'/blog-details-2'}>Five golden rules of software development.</Link></h2>
+                                            <div class="text">As software developers, we love to see the world in terms of complicated problems we have learned in our college courses. There might be some algorithm you learned in your college degree that resonates with the requirements placed</div>
                                             <div class="wrapper">
                                                 <div class="author-box">
-                                                    <div class="thumb"><img src={require('../../assets/images/resource/thumb-6.jpg')} alt=""/></div>
-                                                    <h5>by Hetmayar</h5>
+                                                    <div class="thumb"><img src={require('../../assets/images/resource/thumb-5.jpg')} alt=""/></div>
+                                                    <h5>by Steve Anderson</h5>
                                                 </div>
-                                                <div class="read-more"><Link to={'/blog-details'}><i class="fal fa-arrow-right"></i>Read More</Link></div>
+                                                <div class="read-more"><Link to={'/blog-details-2'}><i class="fal fa-arrow-right"></i>Read More</Link></div>
                                             </div>
                                         </div>
                                     </div>
@@ -141,11 +141,11 @@ class BlogStandard extends Component {
                                     <div class="inner-box" style={{ backgroundImage: "url(" + quotebg + ")" }}>
                                         <div class="lower-content">
                                             <div class="quote"><span class="fa fa-quote-left"></span></div>
-                                            <h2><Link to={'/blog-details'}>Excepteur sint occaecat cupida <br/>tat non proident, sunt in.</Link></h2>
+                                            <h2><Link to={'/blog-details'}>“Any fool can write code that a computer can understand. Good programmers write code that humans can understand."</Link></h2>
                                             <ul class="post-meta">
                                                 <li><Link to={'/#'}><i class="far fa-eye"></i>332 Views</Link></li>
                                                 <li><Link to={'/#'}><i class="far fa-comments"></i>35 Comments</Link></li>
-                                                <li><Link to={'/#'}><i class="far fa-calendar-alt"></i>26th March 2020</Link></li>
+                                                <li><Link to={'/#'}><i class="far fa-calendar-alt"></i>26th March 2021</Link></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -155,7 +155,7 @@ class BlogStandard extends Component {
                                     <div class="inner-box" style={{ backgroundImage: "url(" + blogsbg + ")" }}>
                                         <div class="lower-content">
                                             <div class="category">Business</div>
-                                            <h2><Link to={'/blog-details'}>Culpa qui officia deserunt mollit anim <br/>id est laborum. Sed ut perspiciatis</Link></h2>
+                                            <h2><Link to={'/blog-details'}>“ In order to be irreplaceable, one must always be different”</Link></h2>
                                             <ul class="post-meta">
                                                 <li><Link to={'/#'}><i class="far fa-eye"></i>332 Views</Link></li>
                                                 <li><Link to={'/#'}><i class="far fa-comments"></i>35 Comments</Link></li>
@@ -185,7 +185,7 @@ class BlogStandard extends Component {
                                         <div class="widget-content">
                                             <div class="image"><img src={require('../../assets/images/resource/author-2.jpg')} alt=""/></div>
                                             <h4>Rosalina D. Willaimson</h4>
-                                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+                                            <div class="text">Never really sure how to describe myself in just a few sentences. I went into web design from a business backgroung and I can bring a unique perspective your project.</div>
                                             <ul class="social-links">
                                                 <li><Link to={'/#'}><span class="fab fa-facebook-f"></span></Link></li>
                                                 <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>
@@ -208,36 +208,36 @@ class BlogStandard extends Component {
                                     </div>
 
                                     {/* <!-- Post Widget --> */}
-                                    <div class="sidebar-widget popular-posts">
+                                    {/* <div class="sidebar-widget popular-posts">
                                         <div class="sidebar-title"><h3>Popular Feeds</h3></div>
                                         <div class="widget-content">
                                             
-                                            {/* <!--News Post--> */}
+                                            
                                             <div class="news-post">
                                                 <div class="post-thumb"><Link to={'/blog-details'}><img src={require('../../assets/images/resource/thumb-8.jpg')} data-src="" alt=""/></Link></div>
                                                 <div class="date"><span class="fa fa-calendar-alt"></span> Feb 25, 2020</div>
                                                 <h4><Link to={'/blog-details'}>Lorem ipsum dolor sit <br/>cing elit, sed do. </Link></h4>
                                             </div>
-                                            {/* <!--News Post--> */}
+                                            
                                             <div class="news-post">
                                                 <div class="post-thumb"><Link to={'/blog-details'}><img src={require('../../assets/images/resource/thumb-9.jpg')} alt=""/></Link></div>
                                                 <div class="date"><span class="fa fa-calendar-alt"></span> Feb 20, 2020</div>
                                                 <h4><Link to={'/blog-details'}>Lorem ipsum dolor sit <br/>cing elit, sed do.</Link></h4>
                                             </div>
-                                            {/* <!--News Post--> */}
+                                            
                                             <div class="news-post">
                                                 <div class="post-thumb"><Link to={'/blog-details'}><img src={require('../../assets/images/resource/thumb-10.jpg')} alt=""/></Link></div>
                                                 <div class="date"><span class="fa fa-calendar-alt"></span> Feb 14, 2020</div>
                                                 <h4><Link to={'/blog-details'}>Lorem ipsum dolor sit <br/> cing elit, sed do.</Link></h4>
                                             </div>
-                                            {/* <!--News Post--> */}
+                                            
                                             <div class="news-post">
                                                 <div class="post-thumb"><Link to={'/blog-details'}><img src={require('../../assets/images/resource/thumb-11.jpg')}  alt=""/></Link></div>
                                                 <div class="date"><span class="fa fa-calendar-alt"></span> Feb 14, 2020</div>
                                                 <h4><Link to={'/blog-details'}>Lorem ipsum dolor sit <br/> cing elit, sed do.</Link></h4>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
 
                                     {/* <!-- Category Widget --> */}
                                     <div class="sidebar-widget categories">
@@ -336,7 +336,7 @@ class BlogStandard extends Component {
                                     </div>
 
                                     {/* <!-- Tags Widget --> */}
-                                    <div class="sidebar-widget popular-tags">
+                                    {/* <div class="sidebar-widget popular-tags">
                                         <div class="sidebar-title"><h3>Popular Tags</h3></div>
                                         <div class="widget-content">
                                             <ul class="clearfix">
@@ -354,7 +354,7 @@ class BlogStandard extends Component {
                                                 <li><Link to={'/blog-details'}><span>tech</span></Link></li>
                                             </ul>
                                         </div>
-                                    </div>
+                                    </div> */}
 
                                     {/* <!-- Add Banner Widget --> */}
                                     <div class="sidebar-widget">

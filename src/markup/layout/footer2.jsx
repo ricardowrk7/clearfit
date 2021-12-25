@@ -38,20 +38,20 @@ class Footer2 extends Component {
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <ul>
-                                                        <li><Link to={'/#'}>Home</Link></li>
-                                                        <li><Link to={'/#'}>About</Link></li>
-                                                        <li><Link to={'/#'}>Services</Link></li>
-                                                        <li><Link to={'/#'}>Portfolio</Link></li>
-                                                        <li><Link to={'/#'}>Pricing</Link></li>
-                                                        <li><Link to={'/#'}>Contact</Link></li>
+                                                        <li><Link to={'/'}>Home</Link></li>
+                                                        <li><Link to={'/about'}>About</Link></li>
+                                                        <li><Link to={'/services-1'}>Services</Link></li>
+                                                        <li><Link to={'/portfolio-1'}>Portfolio</Link></li>
+                                                        <li><Link to={'/contact'}>Pricing</Link></li>
+                                                        <li><Link to={'/contact'}>Contact</Link></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <ul>
-                                                        <li><Link to={'/#'}>News</Link></li>
-                                                        <li><Link to={'/#'}>Press Release</Link></li>
-                                                        <li><Link to={'/#'}>Case Study</Link></li>
-                                                        <li><Link to={'/#'}>Terms</Link></li>
+                                                        <li><Link to={'/blog-standard'}>News</Link></li>
+                                                        <li><Link to={'/about'}>Technologies</Link></li>
+                                                        <li><Link to={'/services-1'}>Case Study</Link></li>
+                                                        <li><Link to={'/faq'}>Terms</Link></li>
                                                     </ul>
                                                 </div>
                                             </div>

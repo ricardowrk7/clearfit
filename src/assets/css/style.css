@@ -4730,6 +4730,12 @@ img.lazy-image.loaded {
 	background-size: cover;
 }
 
+@media (max-width: 714px) {
+	.testimonial-section {
+		display: none !important;
+	}
+}
+
 .testimonial-block {
 	position: relative;
 	margin  : 0 15px;

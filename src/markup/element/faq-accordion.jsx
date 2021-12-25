@@ -24,10 +24,10 @@ class FaqAccordion extends Component {
                                     <div class="sec-title">
                                         <div class="sub-title">FREQUENTLY ASKED QUESTION</div>
                                         <h2>Got Any Questions?</h2>
-                                        <div class="text">Veniam quis nostrud exercitation ullamco laboris nist  aute irure dolor in reprehenderit in voluptate velit esse nulla pariatur excepteur sint occaecat aboris nisi ut aliquip ex ea consequat uis aute.</div>
+                                        <div class="text">We want our new clients to have as easy a time transitioning as possible! We know you may have some questions, so I've went ahead and listed some of the most common ones here.</div>
                                     </div>
                                     <div class="link-btn">
-                                        <Link to={'/#'} class="theme-btn btn-style-one"><span class="btn-title">Get More Help</span></Link>
+                                        <Link to={'/contact'} class="theme-btn btn-style-one"><span class="btn-title">Get More Help</span></Link>
                                     </div>
                                 </div>
 

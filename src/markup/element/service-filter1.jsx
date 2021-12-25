@@ -6,82 +6,99 @@ const gallerybg = require('./../../assets/images/background/image-14.jpg');
 const images = [
     {
         id: 1,
-        name: "mountains",
-        banking: true,
-        imgUrl: require('../../assets/images/gallery/gallery-12.jpg')
+        name: "DiverciTea",
+        industry: "ecommerce",
+        eCommerce: true,
+        imgUrl: require('../../assets/images/portfolio/DiverciTea.png')
     },
     {
         id: 2,
-        name: "lights",
-        banking: true,
-        imgUrl: require('../../assets/images/gallery/gallery-15.jpg')
+        name: "Angels Eyewear",
+        industry: "ecommerce",
+        eCommerce: true,
+        imgUrl: require('../../assets/images/portfolio/AngelsEyewear.png')
     },
     {
         id: 3,
-        name: "forest",
-        insurance: true,
-        imgUrl: require('../../assets/images/gallery/gallery-13.jpg')
+        name: "Cbus Social",
+        industry: "SEO",
+        services: true,
+        imgUrl: require('../../assets/images/portfolio/SEO.png')
     },
     {
         id: 4,
-        name: "retro",
-        insurance: true,
-        imgUrl: require('../../assets/images/gallery/gallery-14.jpg')
+        name: "Vohnt",
+        industry: "Car Care",
+        services: true,
+        imgUrl: require('../../assets/images/portfolio/vohnt-carcare.png')
     },
     {
         id: 5,
-        name: "fast",
-        insurance: true,
-        imgUrl: require('../../assets/images/gallery/gallery-16.jpg')
+        name: "Pierre Jean-Louis",
+        industry: "Art Installation",
+        services: true,
+        imgUrl: require('../../assets/images/portfolio/art-instalation.png')
     },
     {
         id: 6,
-        name: "classic",
-        insurance: true,
-        imgUrl: require('../../assets/images/gallery/gallery-17.jpg')
+        name: "Jess Garage Doors",
+        industry: "Construction",
+        services: true,
+        imgUrl: require('../../assets/images/portfolio/garage-service.png')
     },
     {
         id: 7,
-        name: "girl",
-        family: true,
-        imgUrl: require('../../assets/images/gallery/gallery-11.jpg')
+        name: "Thomas George",
+        industry: "Real Estate",
+        lifestyle: true,
+        eCommerce: true,
+        imgUrl: require('../../assets/images/portfolio/Artboard-1.png')
     },
     {
         id: 8,
-        name: "man",
-        family: true,
-        imgUrl: require('../../assets/images/gallery/gallery-13.jpg')
+        name: "The Furniture Store",
+        industry: "Ecommerce",
+        lifestyle: true,
+        eCommerce: true,
+        imgUrl: require('../../assets/images/portfolio/Artboard-2.png')
     },
     {
         id: 9,
-        name: "woman",
-        family: true,
-        imgUrl: require('../../assets/images/gallery/gallery-14.jpg')
+        name: "OneOf",
+        industry: "NFT's",
+        lifestyle: true,
+        services: true,
+        imgUrl: require('../../assets/images/portfolio/Artboard-3.png')
     },
     {
         id: 10,
-        name: "girl",
-        family: true,
-        imgUrl: require('../../assets/images/gallery/gallery-17.jpg')
+        name: "SimpliLearn",
+        industry: "Education",
+        lifestyle: true,
+        imgUrl: require('../../assets/images/portfolio/Artboard-4.png')
     },
     {
         id: 11,
-        name: "man",
+        name: "Virtual Employee",
+        industry: "Staffing",
         business: true,
-        imgUrl: require('../../assets/images/gallery/gallery-11.jpg')
+        lyfestyle: true,
+        imgUrl: require('../../assets/images/portfolio/Artboard-5.png')
     },
     {
         id: 12,
-        name: "woman",
+        name: "Cooley",
+        industry: "Law Firm",
         business: true,
-        imgUrl: require('../../assets/images/gallery/gallery-15.jpg')
+        services: true,
+        imgUrl: require('../../assets/images/portfolio/Artboard-6.png')
     }
 ];
 
 const FILTER_DEFS = {
-    BANKING: image => image.banking,
-    INSURANCE: image => image.insurance,
-    FAMILY: image => image.family,
+    ECOMMERCE: image => image.eCommerce,
+    SERVICES: image => image.services,
+    LIFESTYLE: image => image.lifestyle,
     BUSINESS: image => image.business,
     NONE: image => image
 };
@@ -108,10 +125,10 @@ const ServiceFilter1 = props => {
                         {/* <!--Filter--> */}
                         <div class="filters text-center light">
                             <ul class="filter-tabs filter-btns">
-                                <li class="active filter" onClick={() => setState({ ...state, filterKey: "NONE" })}><span>Financial</span></li>
-                                <li class="filter" onClick={() => setState({ ...state, filterKey: "BANKING" })}><span>Banking</span></li>
-                                <li class="filter" onClick={() => setState({ ...state, filterKey: "MARKETING" })}><span>Marketing </span></li>
-                                <li class="filter" onClick={() => setState({ ...state, filterKey: "CONSTRUCTION" })}><span>Construction</span></li>
+                            <li class="active filter" onClick={() => setState({ ...state, filterKey: "NONE" })}><span>Web Portfolio</span></li>
+                                <li class="filter" onClick={() => setState({ ...state, filterKey: "ECOMMERCE" })}><span>Ecommerce</span></li>
+                                <li class="filter" onClick={() => setState({ ...state, filterKey: "SERVICES" })}><span>Services </span></li>
+                                <li class="filter" onClick={() => setState({ ...state, filterKey: "LIFESTYLE" })}><span>Lifestyle</span></li>
                                 <li class="filter" onClick={() => setState({ ...state, filterKey: "BUSINESS" })}><span>Business</span></li>
                             </ul>
                         </div>
