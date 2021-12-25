@@ -29,8 +29,8 @@ class HomeSlider2 extends Component {
                                 <h1>{slide.title}</h1>
                                 <h2>{slide.finan} <span>{slide.dox} </span></h2>
                                 <div class="btn-box">
-                                    <Link to={'/#'} class="theme-btn btn-style-one"><span class="btn-title">{slide.btnService}</span>
-                                    </Link><Link to={'/#'} class="theme-btn btn-style-two"><span class="btn-title">{slide.btnLearn}</span></Link></div>
+                                    <Link to={'/services-1'} class="theme-btn btn-style-one"><span class="btn-title">{slide.btnService}</span>
+                                    </Link><Link to={'/about'} class="theme-btn btn-style-two"><span class="btn-title">{slide.btnLearn}</span></Link></div>
                             </div>
                         </div>)}
                 </Slider>

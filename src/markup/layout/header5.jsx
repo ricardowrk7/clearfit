@@ -110,7 +110,7 @@ class Header5 extends Component {
                         <div class="auto-container clearfix">
                             {/* <!--Logo--> */}
                             <div class="logo pull-left">
-                                <Link to={'/#'} title=""><img src={require('../../assets/images/sticky-logo.png')} alt="" title=""/></Link>
+                                <Link to={'/#'} title=""><img src={require('../../assets/images/footer-logo.png')} alt="" title=""/></Link>
                             </div>
                             {/* <!--Right Col--> */}
                             <div class="pull-right">
@@ -126,7 +126,7 @@ class Header5 extends Component {
 
                     {/* <!-- Mobile Menu  --> */}
                     <div class="mobile-menu">
-                        <div class="menu-backdrop"></div>
+                        <div class="menu-backdrop mobile-menu"></div>
                         <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
                         
                         <nav class="menu-box">

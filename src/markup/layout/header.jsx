@@ -131,7 +131,7 @@ class Header extends Component {
                         <div class="auto-container clearfix">
 
                             <div class="logo pull-left">
-                                <Link to={'/#'} title=""><img src={require('../../assets/images/sticky-logo.png')} alt="" title="" /></Link>
+                                <Link to={'/#'} title=""><img src={require('../../assets/images/footer-logo.png')} alt="" title="" /></Link>
                             </div>
 
                             <div class="pull-right">
@@ -143,7 +143,7 @@ class Header extends Component {
                     </div>
 
                     <div class="mobile-menu">
-                        <div class="menu-backdrop"></div>
+                        <div class="menu-backdrop mobile-menu"></div>
                         <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
 
                         <nav class="menu-box">
@@ -153,11 +153,11 @@ class Header extends Component {
                             </div>
                             <div class="social-links">
                                 <ul class="clearfix">
-                                    <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>
-                                    <li><Link to={'/#'}><span class="fab fa-facebook-square"></span></Link></li>
-                                    <li><Link to={'/#'}><span class="fab fa-pinterest-p"></span></Link></li>
-                                    <li><Link to={'/#'}><span class="fab fa-instagram"></span></Link></li>
-                                    <li><Link to={'/#'}><span class="fab fa-youtube"></span></Link></li>
+                                    <li onClick={() => this.externalLink('https://twitter.com/ClearFitLLC')}><Link to={''}><span class="fab fa-twitter"></span></Link></li>
+                                    <li onClick={() => this.externalLink('https://www.facebook.com/Alien4Hire')}><Link to={''}><span class="fab fa-facebook-square"></span></Link></li>
+                                    <li onClick={() => this.externalLink('https://www.linkedin.com/in/jason-maynard-54b538ba/')}><Link to={''}><span class="fab fa-linkedin"></span></Link></li>
+                                    <li onClick={() => this.externalLink('https://www.instagram.com/alien4hire12/')}><Link to={''}><span class="fab fa-instagram"></span></Link></li>
+                                    <li onClick={() => this.externalLink('https://www.youtube.com/channel/UCthx_5MwrqQjd6_THnHPNzw')}><Link to={''}><span class="fab fa-youtube"></span></Link></li>
                                 </ul>
                             </div>
                         </nav>
