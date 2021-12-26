@@ -143,9 +143,11 @@ const ServiceFilter1 = props => {
                                             <img src={image.imgUrl} alt="" />
                                         </div>
                                         <div class="caption-title">
+                                            <Link to={`/${image.name.toLowerCase().replace(/\s+/g, '')}`}>
                                             <h5>{image.name}</h5>
-                                            <h3><Link to={'/#'}>Miranda Hilix Bar</Link></h3>
-                                            <div class="view-project"><Link data-fancybox="example gallery" to="assets/images/gallery/gallery-10.jpg" class="zoom-btn"><span>+</span></Link></div>
+                                            <h3 style={{minWidth: '180px', color: '#111'}}>{image.industry}</h3>
+                                            <div class="view-project"><Link data-fancybox="example gallery" to={`/${image.name.toLowerCase().replace(/\s+/g, '')}`} class="zoom-btn"><span>+</span></Link></div>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>

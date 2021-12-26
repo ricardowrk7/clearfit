@@ -31,6 +31,116 @@ import Team from './pages/team';
 import Testimonial1 from './element/testimonial1'
 import BackToTop from './layout/backToTop'
 
+const details = [
+    {
+        image: require('../assets/images/resource/image-15.jpg'),
+        name: 'DiverciTea',
+        date: 'August 22, 2021',
+        author: 'Jason Maynard',
+        keyword: 'eCommerce',
+        prev: 'Cooley',
+        next: 'Angels Eyewear'
+    },
+    {
+        image: require('../assets/images/resource/image-15.jpg'),
+        name: 'Angels Eyewear',
+        date: 'April 18, 2021',
+        author: 'Jason Maynard',
+        keyword: 'eCommerce',
+        prev: 'DiverciTea',
+        next: 'Cbus Social'
+    },
+    {
+        image: require('../assets/images/resource/image-15.jpg'),
+        name: 'Cbus Social',
+        date: 'January 29, 2021',
+        author: 'Jason Maynard',
+        keyword: 'SEO, Services',
+        prev: 'Angels Eyewear',
+        next: 'Vohnt'
+    },
+    {
+        image: require('../assets/images/resource/image-15.jpg'),
+        name: 'Vohnt',
+        date: 'September 12, 2021',
+        author: 'Jason Maynard',
+        keyword: 'eCommerce, Car Care',
+        prev: 'Cbus Social',
+        next: 'Pierre Jean-Louis'
+    },
+    {
+        image: require('../assets/images/resource/image-15.jpg'),
+        name: 'Pierre Jean-Louis',
+        date: 'July 17, 2021',
+        author: 'Jason Maynard',
+        keyword: 'eCommerce, Lifestyle',
+        prev: 'Vohnt',
+        next: 'Jess Garage Doors'
+    },
+    {
+        image: require('../assets/images/resource/image-15.jpg'),
+        name: 'Jess Garage Doors',
+        date: 'July 22, 2021',
+        author: 'Jason Maynard',
+        keyword: 'Services',
+        prev: 'Pierre Jean-Louis',
+        next: 'Thomas George'
+    },
+    {
+        image: require('../assets/images/resource/image-15.jpg'),
+        name: 'Thomas George',
+        date: 'January 02, 2020',
+        author: 'Jason Maynard',
+        keyword: 'eCommerce, Real Estate',
+        prev: 'Jess Garage Doors',
+        next: 'The Furniture Store'
+    },
+    {
+        image: require('../assets/images/resource/image-15.jpg'),
+        name: 'The Furniture Store',
+        date: 'August 22, 2021',
+        author: 'Jason Maynard',
+        keyword: 'eCommerce',
+        prev: 'Thomas George',
+        next: 'OneOf'
+    },
+    {
+        image: require('../assets/images/resource/image-15.jpg'),
+        name: 'OneOf',
+        date: 'February 09, 2021',
+        author: 'Jason Maynard',
+        keyword: 'eCommerce, NFT',
+        prev: 'The Furniture Store',
+        next: 'SimpliLearn'
+    },
+    {
+        image: require('../assets/images/resource/image-15.jpg'),
+        name: 'SimpliLearn',
+        date: 'January 05, 2022',
+        author: 'Jason Maynard',
+        keyword: 'lifestyle, Education',
+        prev: 'OneOf',
+        next: 'Virtual Employee'
+    },
+    {
+        image: require('../assets/images/resource/image-15.jpg'),
+        name: 'Virtual Employee',
+        date: 'December 11, 2019',
+        author: 'Jason Maynard',
+        keyword: 'lifestyle, staffing',
+        prev: 'SimpliLearn',
+        next: 'Cooley'
+    },
+    {
+        image: require('../assets/images/resource/image-15.jpg'),
+        name: 'Cooley',
+        date: 'March 22, 2022',
+        author: 'Jason Maynard',
+        keyword: 'Law, Services',
+        prev: 'Virtual Employee',
+        next: 'DiverciTea'
+    }
+]
 
 class Router extends Component {
     render() {
@@ -60,7 +170,11 @@ class Router extends Component {
                             <Route path='/faq' component={Faq} />
                             <Route path='/portfolio-1' component={Portfolio1} />
                             <Route path='/portfolio-2' component={Portfolio2} />
-                            <Route path='/portfolio-details' component={PortfolioDetails} />
+                            {details.map(detail => {
+                                return (
+                                    <Route path={`/${detail.name.toLowerCase().replace(/\s+/g, '')}`} component={() => <PortfolioDetails details={detail}/>}/>
+                                )
+                            })}
                             <Route path='/product-details' component={ProductDetails} />
                             <Route path='/services-1' component={Services1} />
                             <Route path='/services-2' component={Services2} />
